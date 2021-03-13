@@ -28,7 +28,7 @@ public class ScoreboardDriverV1 implements IBoard {
         this.player = player;
 
         this.board = Objects.requireNonNull(Session.getSession().plugin.getServer().getScoreboardManager()).getNewScoreboard();
-        this.objective = this.board.registerNewObjective("sb1", "sb2", "sb3");
+        this.objective = this.board.registerNewObjective("sb1", "sb2");
         this.objective.setDisplaySlot(DisplaySlot.SIDEBAR);
         this.objective.setDisplayName("");
 
@@ -43,6 +43,10 @@ public class ScoreboardDriverV1 implements IBoard {
     {
         if (title == null) {
             title = "";
+        }
+
+        if (title.length() > LineLimits.getLineLimit() * 2) {
+            title = title.substring(0, LineLimits.getLineLimit() * 2);
         }
 
         this.objective.setDisplayName(title);

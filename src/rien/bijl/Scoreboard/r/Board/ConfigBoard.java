@@ -34,7 +34,7 @@ public class ConfigBoard extends BukkitRunnable {
     {
         List<String> lines = Objects.requireNonNull(ConfigControl.get().gc("settings").getConfigurationSection(this.board + ".title")).getStringList("lines");
         int interval = ConfigControl.get().gc("settings").getInt(this.board + ".title.interval");
-        this.title = new Row(lines, interval);
+        this.title = new Row(ScoreboardStrings.makeColoredStringList(lines), interval);
     }
 
     private void initRows()
@@ -42,7 +42,7 @@ public class ConfigBoard extends BukkitRunnable {
         for (int i = 1; i < 200; i++) {
             ConfigurationSection section = ConfigControl.get().gc("settings").getConfigurationSection(this.board + ".rows." + i);
             if (section != null) {
-                Row row = new Row(section.getStringList("lines"), section.getInt("interval"));
+                Row row = new Row(ScoreboardStrings.makeColoredStringList(section.getStringList("lines")), section.getInt("interval"));
                 rows.add(row);
             }
         }
@@ -79,11 +79,11 @@ public class ConfigBoard extends BukkitRunnable {
 
         for (Player player: playerToBoard.keySet()) {
             WrapperBoard wrapperBoard = playerToBoard.get(player);
-            wrapperBoard.setTitle(ScoreboardStrings.make(player, this.title.getLine()));
+            wrapperBoard.setTitle(ScoreboardStrings.placeholders(player, this.title.getLine()));
 
             int count = 0;
             for (Row row: rows) {
-                wrapperBoard.setLine(count, ScoreboardStrings.make(player, row.getLine()));
+                wrapperBoard.setLine(count, ScoreboardStrings.placeholders(player, row.getLine()));
                 count++;
             }
         }

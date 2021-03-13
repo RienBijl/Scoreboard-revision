@@ -12,10 +12,7 @@ public class LineLimits {
             return lineLimit;
         }
 
-        String pack = Session.getSession().plugin.getServer().getClass().getPackage().getName();
-        String[] version = pack.substring(pack.lastIndexOf('.') + 1).substring(1).split("_");
-
-        int minor = Integer.parseInt(version[1]);
+        int minor = ServerVersion.minor();
 
         if (minor >= 13) {
             lineLimit = 64;

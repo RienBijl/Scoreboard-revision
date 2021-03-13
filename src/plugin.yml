@@ -1,6 +1,6 @@
 name: Scoreboard-revision
 author: HelloitsRien
-version: R4 1.0 RELEASE
+version: R4 1.1 RELEASE
 main: rien.bijl.Scoreboard.r.Main
 description: Lightweight nonflickering scoreboard revision
 softdepend: [PlaceholderAPI]
