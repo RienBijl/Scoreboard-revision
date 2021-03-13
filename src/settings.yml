@@ -39,13 +39,12 @@ board:
       - '&4> &c&lcoreboar &4<'
       - '&4> &4&lScoreboard &4<'
       - '&4> &4&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard-r &4<'
-      - '&4> &4&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard-r &4<'
-      - '&4> &4&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard-r &4<'
+      - '&4> &c&lScoreboard-r &c&o4 &4<'
+      - '&4> &4&lScoreboard-r &4&o4 ツ &4<'
+      - '&4> &c&lScoreboard-r &c&o4 ツ &4<'
+      - '&4> &4&lScoreboard-r &4&o4 ツ &4<'
+      - '&4> &c&lScoreboard-r &c&o4 ツ &4<'
+      - '&4> &c&lScoreboard-r &c&o4 &4<'
   rows:
     1:
       interval: 5
@@ -55,49 +54,51 @@ board:
     2:
       interval: 80
       lines:
-        - '&cPlayer:'
-        - '&cAuthor:'
+        - '&cPlayer &4&l>'
     3:
       interval: 80
       lines:
         - '%player_name%'
-        - 'HelloitsRien'
     4:
       interval: 80
       lines:
-        - ''
+        - '&4♡ &f&o%player_health_rounded%/%player_max_health_rounded%'
+        - '%player_ping% &7ms latency'
     5:
       interval: 80
       lines:
-        - '&cPing:'
+        - ''
     6:
-      interval: 5
+      interval: 80
       lines:
-        - '%player_ping% ms'
+        - '&cServer &4&l>'
     7:
       interval: 80
       lines:
-        - ''
-    '  interval: 80
+        - '%server_unique_joins% &7unique players'
+        - '%server_online% &7online players'
+    8:
+      interval: 80
       lines:
-        - '&cUptime:'
+        - '%server_ram_used%mb/%server_ram_total%mb &7ram usage'
+        - '%server_tps_1% &7ticks per second'
     9:
-      interval: 20
+      interval: 80
       lines:
-        - '%server_uptime%'
+        - ''
     10:
       interval: 80
       lines:
-        - ''
+        - '&cCredits &4&l>'
     11:
       interval: 80
       lines:
-        - 'This is an awesome plugin'
+        - 'A plugin by HelloitsRien'
     12:
       interval: 80
       lines:
-        - 'made by HelloitsRien.'
-    50:
+        - 'please leave a review ツ'
+    13:
       interval: 5
       lines:
         - '&c------------------------'

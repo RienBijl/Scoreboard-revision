@@ -10,8 +10,6 @@ public class ConfigChecker {
     public static void check(String config, int version) {
         FileConfiguration fc = ConfigControl.get().gc(config);
 
-        Session.getSession().plugin.getLogger().info("CONF" + config + " " + fc.getInt("config_version") + " " + version);
-
         if (fc.getInt("config_version") < version) {
             Session.getSession().alertBrokenConfig = true;
             replaceConfig(config);
