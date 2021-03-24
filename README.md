@@ -1,6 +1,6 @@
 ![Scoreboard](https://i.imgur.com/J5EnzvF.png)
 
-[![Build passing](https://github.com/RienBijl/Scoreboard-revision/actions/workflows/maven.yml/badge.svg)](https://github.com/RienBijl/Scoreboard-revision/actions/workflows/maven.yml)
+[![Dev source](https://github.com/RienBijl/Scoreboard-revision/actions/workflows/maven.yml/badge.svg)](https://github.com/RienBijl/Scoreboard-revision/actions/workflows/maven.yml)
 
 ## Animated, flickerless Scoreboard
 
