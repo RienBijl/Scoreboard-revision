@@ -4,7 +4,7 @@
 
 ## Animated, flickerless Scoreboard
 
-This is the official repo for Scoreboard-revision! Please adhere to the following commit scheme to keep things organized.
+This is the official repo for Scoreboard-revision! Don't know what this is? [Check out our Spigot page!](https://www.spigotmc.org/resources/scoreboard.14754/)  Please adhere to the following commit scheme to keep things organized.
 
 - **`feat(FEATURE): MESSAGE (#issue-id)`**<br/>
   Example: *feat(flicker): Flickering is now gone. #3*<br/>
