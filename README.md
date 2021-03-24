@@ -1,6 +1,6 @@
 ![Scoreboard](https://i.imgur.com/J5EnzvF.png)
 
-[![Dev source](https://github.com/RienBijl/Scoreboard-revision/actions/workflows/maven.yml/badge.svg)](https://github.com/RienBijl/Scoreboard-revision/actions/workflows/maven.yml)
+[![Release](https://github.com/RienBijl/Scoreboard-revision/actions/workflows/stable.yml/badge.svg)](https://github.com/RienBijl/Scoreboard-revision/actions/workflows/stable.yml) [![Dev source](https://github.com/RienBijl/Scoreboard-revision/actions/workflows/maven.yml/badge.svg)](https://github.com/RienBijl/Scoreboard-revision/actions/workflows/maven.yml)
 
 ## Animated, flickerless Scoreboard
 
