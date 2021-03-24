@@ -2,7 +2,6 @@ package rien.bijl.Scoreboard.r.Plugin.Utility;
 
 import me.clip.placeholderapi.PlaceholderAPI;
 import org.bukkit.ChatColor;
-import org.bukkit.Server;
 import org.bukkit.entity.Player;
 import rien.bijl.Scoreboard.r.Plugin.Session;
 

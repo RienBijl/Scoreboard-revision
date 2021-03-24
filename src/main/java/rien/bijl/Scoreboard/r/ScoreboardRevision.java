@@ -1,6 +1,5 @@
 package rien.bijl.Scoreboard.r;
 
-import com.sun.istack.internal.NotNull;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -27,7 +26,7 @@ public class ScoreboardRevision {
      * @param plugin JavaPlugin hooked to
      * @param defaultBoard What board should we default to
      */
-    public ScoreboardRevision(@NotNull JavaPlugin plugin, @NotNull String defaultBoard)
+    public ScoreboardRevision(JavaPlugin plugin, String defaultBoard)
     {
         this.plugin = plugin;
         this.defaultBoard = defaultBoard;
@@ -73,7 +72,6 @@ public class ScoreboardRevision {
         Session.getSession().worldManager = new WorldManager();
         Session.getSession().worldManager.runTaskTimer(this.plugin, 1L, 20L);
 
-        new Metrics(this.plugin);
         Objects.requireNonNull(this.plugin.getCommand("sb")).setExecutor(new Manager());
     }
 

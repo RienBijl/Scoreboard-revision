@@ -4,7 +4,7 @@
 # \___ ||  \_ | \_/||    /|  /_ | |_\\| \_/|| |-|||    /| |_/|
 # \____/\____/\____/\_/\_\\____\\____/\____/\_/ \|\_/\_\\____/
 #
-# We understand that not everyone is English! Thats why every message Scoreboard-r
+# We understand that not everyone is English! Thats why every message Scoreboard-rien.bijl.Scoreboard.r
 # sends to players can be changed to your own language
 # use %prefix% to prefix the message with the standard prefix
 
@@ -12,7 +12,7 @@
 config_version: 1
 
 general:
-  prefix: '&4[&cScoreboard-r&4]&c&o'
+  prefix: '&4[&cScoreboard-rien.bijl.Scoreboard.r&4]&c&o'
 
 misc:
   outofdate: "%prefix% Scoreboard-revision is out of date, visit the Spigot resource page to check for a new update."

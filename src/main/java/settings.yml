@@ -4,7 +4,7 @@
 # \___ ||  \_ | \_/||    /|  /_ | |_\\| \_/|| |-|||    /| |_/|
 # \____/\____/\____/\_/\_\\____\\____/\____/\_/ \|\_/\_\\____/
 #
-# Scoreboard-r by Rien Bijl
+# Scoreboard-rien.bijl.Scoreboard.r by Rien Bijl
 # rep: github : RienBijl/Scoreboard-revision
 # v: R4 1.1 RELEASE
 
@@ -28,7 +28,7 @@ board:
   title:
     interval: 3
     lines:
-      - '&4> &c&lScoreboard-r &4<'
+      - '&4> &c&lScoreboard-rien.bijl.Scoreboard.r &4<'
       - '&4> &c&lScoreboard &4<'
       - '&4> &c&lcoreboar &4<'
       - '&4> &c&loreboa &4<'
@@ -38,13 +38,13 @@ board:
       - '&4> &c&loreboa &4<'
       - '&4> &c&lcoreboar &4<'
       - '&4> &4&lScoreboard &4<'
-      - '&4> &4&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard-r &c&o4 &4<'
-      - '&4> &4&lScoreboard-r &4&o4 ツ &4<'
-      - '&4> &c&lScoreboard-r &c&o4 ツ &4<'
-      - '&4> &4&lScoreboard-r &4&o4 ツ &4<'
-      - '&4> &c&lScoreboard-r &c&o4 ツ &4<'
-      - '&4> &c&lScoreboard-r &c&o4 &4<'
+      - '&4> &4&lScoreboard-rien.bijl.Scoreboard.r &4<'
+      - '&4> &c&lScoreboard-rien.bijl.Scoreboard.r &c&o4 &4<'
+      - '&4> &4&lScoreboard-rien.bijl.Scoreboard.r &4&o4 ツ &4<'
+      - '&4> &c&lScoreboard-rien.bijl.Scoreboard.r &c&o4 ツ &4<'
+      - '&4> &4&lScoreboard-rien.bijl.Scoreboard.r &4&o4 ツ &4<'
+      - '&4> &c&lScoreboard-rien.bijl.Scoreboard.r &c&o4 ツ &4<'
+      - '&4> &c&lScoreboard-rien.bijl.Scoreboard.r &c&o4 &4<'
   rows:
     1:
       interval: 5

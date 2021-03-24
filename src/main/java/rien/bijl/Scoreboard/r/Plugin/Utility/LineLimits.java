@@ -1,7 +1,5 @@
 package rien.bijl.Scoreboard.r.Plugin.Utility;
 
-import rien.bijl.Scoreboard.r.Plugin.Session;
-
 public class LineLimits {
 
     private static int lineLimit = 0;

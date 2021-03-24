@@ -1,12 +1,9 @@
 package rien.bijl.Scoreboard.r.Plugin.Listeners;
 
-import com.sun.istack.internal.NotNull;
-import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import rien.bijl.Scoreboard.r.Board.BoardPlayer;
-import rien.bijl.Scoreboard.r.Board.ConfigBoard;
 import rien.bijl.Scoreboard.r.Plugin.Session;
 import rien.bijl.Scoreboard.r.Plugin.Utility.i18n;
 
