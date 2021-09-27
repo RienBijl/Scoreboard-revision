@@ -53,9 +53,9 @@ public class Row {
             if (current >= lines.size()) {
                 current = 0;
             }
-
-            line = lines.get(current);
-
+            try {
+                line = lines.get(current);
+            } catch (Exception ignored){}
         } else {
             count++;
         }

@@ -118,7 +118,7 @@ public class ScoreboardDriverV1 implements IBoard {
 
     @Override
     public Player getPlayer() {
-        return this.getPlayer();
+        return this.player;
     }
 
     private void createTeams()
